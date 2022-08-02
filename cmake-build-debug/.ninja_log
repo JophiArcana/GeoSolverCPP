@@ -1,0 +1,20 @@
+# ninja log v5
+3	456	1659079901510576856	CMakeFiles/GeoSolver_CPP.dir/Entity.cpp.o	2b8a76e0e0457e29
+1	371	1659210002544120869	CMakeFiles/GeoSolver_CPP.dir/main.cpp.o	48c7b89ca08aa17c
+371	400	1659210002575363639	GeoSolver_CPP	e03b164f3c9ab360
+3	422	1659079901473730383	CMakeFiles/GeoSolver_CPP.dir/EqualityPivot.cpp.o	d63f641c082954c3
+2	145	1659160553538748755	CMakeFiles/GeoSolver_CPP.dir/proposition/Proposition.cpp.o	86b268adf561ba33
+2	341	1659208404327096875	CMakeFiles/GeoSolver_CPP.dir/proposition/EqualityPivot.cpp.o	c488772e9214e140
+2	369	1659208404358477040	CMakeFiles/GeoSolver_CPP.dir/structure/Entity.cpp.o	81cc78bd7c19cc2e
+3	574	1659331001119534851	CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/EqualityPivot.cpp.o	cc76cc4b85fe56cc
+3	585	1659331001137408507	CMakeFiles/GeoSolver_CPP.dir/structure/DefinedEntity.cpp.o	fa685fa70b82d833
+4	621	1659331001173854002	CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/unicardinal/UnicardinalPivot.cpp.o	33145392a53b3a33
+3	630	1659331001183144380	CMakeFiles/GeoSolver_CPP.dir/structure/unicardinal/Unicardinal.cpp.o	fbdc5a08d206703a
+621	645	1659331001199534378	CMakeFiles/GeoSolver_CPP.dir/Utils.cpp.o	7f4e0712b613e66c
+4	666	1659331001218337347	CMakeFiles/GeoSolver_CPP.dir/structure/Mutable.cpp.o	376c62f43fb7049c
+2	718	1659331001271510181	CMakeFiles/GeoSolver_CPP.dir/structure/Entity.cpp.o	81cc78bd7c19cc2e
+575	884	1659331001438396100	CMakeFiles/GeoSolver_CPP.dir/structure/Immutable.cpp.o	1f9b7a2c5f1d66fa
+585	886	1659331001441107120	CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/DefinedPivot.cpp.o	9d9c749d3d590bcf
+645	934	1659331001489305799	CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/ImmutablePivot.cpp.o	29f4c76b42643c95
+630	971	1659331001525728210	CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/MutablePivot.cpp.o	2e0264a518034e0a
+971	1052	1659331001608269795	GeoSolver_CPP	553b4c5d5051b9f3

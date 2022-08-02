@@ -1,0 +1,211 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: GeoSolver_CPP
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/wentinnliao/Desktop/GeoSolver$ CPP/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target GeoSolver_CPP
+
+
+#############################################
+# Order-only phony target for GeoSolver_CPP
+
+build cmake_object_order_depends_target_GeoSolver_CPP: phony || CMakeFiles/GeoSolver_CPP.dir
+
+build CMakeFiles/GeoSolver_CPP.dir/main.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/main.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir
+
+build CMakeFiles/GeoSolver_CPP.dir/structure/Entity.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/structure/Entity.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/structure/Entity.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/structure
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/EqualityPivot.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/equalityPivot/EqualityPivot.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/EqualityPivot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/Proposition.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/Proposition.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/Proposition.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition
+
+build CMakeFiles/GeoSolver_CPP.dir/structure/unicardinal/Unicardinal.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/structure/unicardinal/Unicardinal.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/structure/unicardinal/Unicardinal.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/structure/unicardinal
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/unicardinal/UnicardinalPivot.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/equalityPivot/unicardinal/UnicardinalPivot.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/unicardinal/UnicardinalPivot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/unicardinal
+
+build CMakeFiles/GeoSolver_CPP.dir/structure/DefinedEntity.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/structure/DefinedEntity.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/structure/DefinedEntity.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/structure
+
+build CMakeFiles/GeoSolver_CPP.dir/structure/Mutable.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/structure/Mutable.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/structure/Mutable.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/structure
+
+build CMakeFiles/GeoSolver_CPP.dir/structure/Immutable.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/structure/Immutable.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/structure/Immutable.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/structure
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/DefinedPivot.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/equalityPivot/DefinedPivot.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/DefinedPivot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot
+
+build CMakeFiles/GeoSolver_CPP.dir/Utils.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/Utils.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/Utils.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/MutablePivot.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/equalityPivot/MutablePivot.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/MutablePivot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot
+
+build CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/ImmutablePivot.cpp.o: CXX_COMPILER__GeoSolver_CPP_Debug /Users/wentinnliao/Desktop/GeoSolver$ CPP/proposition/equalityPivot/ImmutablePivot.cpp || cmake_object_order_depends_target_GeoSolver_CPP
+  DEP_FILE = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/ImmutablePivot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GeoSolver_CPP
+
+
+#############################################
+# Link the executable GeoSolver_CPP
+
+build GeoSolver_CPP: CXX_EXECUTABLE_LINKER__GeoSolver_CPP_Debug CMakeFiles/GeoSolver_CPP.dir/main.cpp.o CMakeFiles/GeoSolver_CPP.dir/structure/Entity.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/EqualityPivot.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/Proposition.cpp.o CMakeFiles/GeoSolver_CPP.dir/structure/unicardinal/Unicardinal.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/unicardinal/UnicardinalPivot.cpp.o CMakeFiles/GeoSolver_CPP.dir/structure/DefinedEntity.cpp.o CMakeFiles/GeoSolver_CPP.dir/structure/Mutable.cpp.o CMakeFiles/GeoSolver_CPP.dir/structure/Immutable.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/DefinedPivot.cpp.o CMakeFiles/GeoSolver_CPP.dir/Utils.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/MutablePivot.cpp.o CMakeFiles/GeoSolver_CPP.dir/proposition/equalityPivot/ImmutablePivot.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1
+  OBJECT_DIR = CMakeFiles/GeoSolver_CPP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = GeoSolver_CPP
+  TARGET_PDB = GeoSolver_CPP.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/wentinnliao/Desktop/GeoSolver CPP/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/wentinnliao/Desktop/GeoSolver CPP/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/wentinnliao/Desktop/GeoSolver CPP" -B"/Users/wentinnliao/Desktop/GeoSolver CPP/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/wentinnliao/Desktop/GeoSolver CPP/cmake-build-debug
+
+build all: phony GeoSolver_CPP
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
